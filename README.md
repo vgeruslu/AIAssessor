@@ -1,24 +1,20 @@
-📘 AI-Assisted Grading Tool
+# 📘 AIAssessor: AI-Assisted Assessment Tool for Software Engineering Coursework
+
 This Python desktop application automates the grading of software testing assignments using OpenAI’s GPT-3.5 API. It allows instructors to process student .docx reports and .java test files in batch, generate rubric-aligned feedback, and save results as structured PDF files.
 
-Developed as part of a Final Year Project at Queen’s University Belfast (CSC4006).
+The tool was developed as part of a Final Year Project at Queen’s University Belfast (CSC4006).
+---
+## 🚀 Features
+- Batch processing of student lab submissions
+- Uploads files to Dropbox and retrieves public file links
+- Dynamically constructs grading prompts using GPT-3.5
+- Saves AI-generated feedback as PDF
+- GUI with light/dark mode toggle
+- Real-time logging of each grading step
+- Unit-tested utility logic
+---
+## 📂 Folder Structure
 
-🚀 Features
-Batch processing of student lab submissions
-
-Uploads files to Dropbox and retrieves public file links
-
-Dynamically constructs grading prompts using GPT-3.5
-
-Saves AI-generated feedback as PDF
-
-GUI with light/dark mode toggle
-
-Real-time logging of each grading step
-
-Unit-tested utility logic
-
-📂 Folder Structure
 AIGradingTool/
 ├── src/                   # Main application code
 │   ├── grading_tool_gui.py
@@ -30,11 +26,9 @@ AIGradingTool/
 ├── requirements.txt       # Python dependencies
 ├── config_template.json   # Example config file (see below)
 └── README.md              
-
-🔧 Installation
+---
+## 🔧 Installation
 1. Clone the Repository
-git clone https://gitlab.eeecs.qub.ac.uk/40298772/ai-assisted-grading-tool
-cd ai-assisted-grading-tool
 
 2. Set Up a Virtual Environment
 python -m venv venv
@@ -42,9 +36,8 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 
 3. Install Dependencies
 pip install -r requirements.txt
-
-
-🔑 Configuration
+---
+## 🔑 Configuration
 To enable file uploads and sharing via Dropbox, you must create a developer app and generate an access token:
 
 Step 1: Create a Dropbox Developer App
@@ -74,7 +67,8 @@ Step 3: Set Required Permissions
     ✅ files.content.read
     ✅ sharing.write
 -Scroll down and click Submit to save changes
-
+---
+## 
 🧪 Running Unit Tests
 To run tests:
 pytest tests/
@@ -83,7 +77,8 @@ These test:
 - Folder name parsing
 - Regex matching
 - PDF feedback generation
-
+---
+## 
 🖼️ Usage Instructions
 1. Launch the application:
 python src/main.py
@@ -100,17 +95,16 @@ LabX_prompt.txt
 4. Click "Process" to begin grading
 
 5. Click "View Feedback" to open the folder containing the generated PDFs
-
+---
+## 
 📄 License
 This project is for academic research and educational use only.
+---
+## 👨‍💻 Development Team
 
-👨‍💻 Author
 Name: Niall Hurson
-
 Student ID: 40298772
-
 Course: MEng Computer Science, Queen’s University Belfast
-
 Supervisor: Dr. Vahid Garousi
 
 (Please Note Github does not contain reports/ code files as these are confidential - access must be requested from supervisor)
