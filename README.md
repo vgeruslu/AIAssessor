@@ -15,27 +15,27 @@ The tool was developed as part of a Final Year Project at Queen’s University B
 ---
 ## 📂 Folder Structure
 
-AIGradingTool/
-├── src/                   # Main application code
-│   ├── grading_tool_gui.py
-│   ├── style.py
-│   └── main.py
-├── tests/                 # Unit tests
-│   └── test_core_logic.py
-├── docs/                  # Documentation - example prompts
-├── requirements.txt       # Python dependencies
-├── config_template.json   # Example config file (see below)
-└── README.md              
+    AIGradingTool/
+    ├── src/                   # Main application code
+    │   ├── grading_tool_gui.py
+    │   ├── style.py
+    │   └── main.py
+    ├── tests/                 # Unit tests
+    │   └── test_core_logic.py
+    ├── docs/                  # Documentation - example prompts
+    ├── requirements.txt       # Python dependencies
+    ├── config_template.json   # Example config file (see below)
+    └── README.md              
 ---
 ## 🔧 Installation
 1. Clone the Repository
 
 2. Set Up a Virtual Environment
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+    python -m venv venv
+    source venv/bin/activate  # or venv\Scripts\activate on Windows
 
-3. Install Dependencies
-pip install -r requirements.txt
+4. Install Dependencies
+    pip install -r requirements.txt
 ---
 ## 🔑 Configuration
 To enable file uploads and sharing via Dropbox, you must create a developer app and generate an access token:
@@ -55,10 +55,10 @@ Step 2: Generate an Access Token
 -Copy and securely store the token
 -Create config.json and paste token into your config.json like this:
 
-{
-  "openai_api_key": "your-openai-api-key",
-  "dropbox_access_token": "your-dropbox-access-token"
-}
+    {
+      "openai_api_key": "your-openai-api-key",
+      "dropbox_access_token": "your-dropbox-access-token"
+    }
 
 Step 3: Set Required Permissions
 -Go to Permissions in the sidebar
@@ -71,7 +71,7 @@ Step 3: Set Required Permissions
 ## 
 🧪 Running Unit Tests
 To run tests:
-pytest tests/
+    pytest tests/
 
 These test:
 - Folder name parsing
@@ -81,14 +81,14 @@ These test:
 ## 
 🖼️ Usage Instructions
 1. Launch the application:
-python src/main.py
+    python src/main.py
 
 2. Select the Input Folder: 
 Should contain format of:
-GX_Report.docx
-GX_RangeTest.java
-GX_DataUtilitiesTest.java
-LabX_prompt.txt
+- GX_Report.docx
+- GX_RangeTest.java
+- GX_DataUtilitiesTest.java
+- LabX_prompt.txt
 
 3. Select the Output Folder
 
@@ -102,9 +102,8 @@ This project is for academic research and educational use only.
 ---
 ## 👨‍💻 Development Team
 
-Name: Niall Hurson
-Student ID: 40298772
+Name: [Niall Hurson](https://www.linkedin.com/in/niall-hurson-9b4796333/)
 Course: MEng Computer Science, Queen’s University Belfast
-Supervisor: Dr. Vahid Garousi
+Supervisor: [Dr. Vahid Garousi](https://www.vgarousi.com/)
 
 (Please Note Github does not contain reports/ code files as these are confidential - access must be requested from supervisor)
