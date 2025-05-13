@@ -3,7 +3,7 @@
 This Python desktop application automates the grading of software testing assignments using OpenAI’s GPT-3.5 API. It allows instructors to process student .docx reports and .java test files in batch, generate rubric-aligned feedback, and save results as structured PDF files.
 
 The tool was developed as part of a Final Year Project at Queen’s University Belfast (CSC4006).
----
+
 ## 🚀 Features
 - Batch processing of student lab submissions
 - Uploads files to Dropbox and retrieves public file links
@@ -12,7 +12,7 @@ The tool was developed as part of a Final Year Project at Queen’s University B
 - GUI with light/dark mode toggle
 - Real-time logging of each grading step
 - Unit-tested utility logic
----
+
 ## 📂 Folder Structure
 
     AIGradingTool/
@@ -26,7 +26,7 @@ The tool was developed as part of a Final Year Project at Queen’s University B
     ├── requirements.txt       # Python dependencies
     ├── config_template.json   # Example config file (see below)
     └── README.md              
----
+
 ## 🔧 Installation
 1. Clone the Repository
 
@@ -36,7 +36,7 @@ The tool was developed as part of a Final Year Project at Queen’s University B
 
 4. Install Dependencies
     pip install -r requirements.txt
----
+
 ## 🔑 Configuration
 To enable file uploads and sharing via Dropbox, you must create a developer app and generate an access token:
 
@@ -67,7 +67,7 @@ Step 3: Set Required Permissions
     ✅ files.content.read
     ✅ sharing.write
 -Scroll down and click Submit to save changes
----
+
 ## 
 🧪 Running Unit Tests
 To run tests:
@@ -77,9 +77,8 @@ These test:
 - Folder name parsing
 - Regex matching
 - PDF feedback generation
----
-## 
-🖼️ Usage Instructions
+
+## 🖼️ Usage Instructions
 1. Launch the application:
     python src/main.py
 
@@ -95,11 +94,10 @@ Should contain format of:
 4. Click "Process" to begin grading
 
 5. Click "View Feedback" to open the folder containing the generated PDFs
----
-## 
-📄 License
+
+## 📄 License
 This project is for academic research and educational use only.
----
+
 ## 👨‍💻 Development Team
 
 Name: [Niall Hurson](https://www.linkedin.com/in/niall-hurson-9b4796333/)
