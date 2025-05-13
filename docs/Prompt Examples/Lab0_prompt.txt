@@ -1,0 +1,56 @@
+
+General Instructions:
+"Evaluate the attached lab report using the rubric provided below. 
+Grade each section independently, then provide an overall score as a percentage. 
+Additionally, give detailed feedback for each section, highlighting strengths, weaknesses, and specific suggestions 
+for improvement.
+
+Grading Rubric:
+Introduction (10%)
+
+Does the section clearly introduce the lab's scope and objectives?
+Does it discuss what each student knew about exploratory and manual functional testing before the lab?
+Does it provide sufficient detail to set the stage for the lab?
+Key Considerations: The section should not be overly brief and must include all necessary context for the lab.
+Exploratory Testing Plan (20%)
+
+Are the plans detailed and aligned with the lab's template instructions, specifically including:
+Functions (use cases) to be tested.
+Approach to testing (test many functions lightly or a few functions extensively).
+Test case design (common paths, exceptional/invalid paths).
+Are the test plans logically structured and comprehensive?
+Key Considerations: Lack of adherence to the required template should impact the score.
+Defect Reporting and Statistics (20%)
+
+Does the report accurately categorize and list defects by type (e.g., exploratory, regression)?
+Are the defect titles informative, and do they include clear reproduction steps as specified in the lab instructions?
+Key Considerations: Incomplete or vague titles and unclear reproduction steps should reduce the score.
+Comparison of Testing Approaches (20%)
+
+Does it provide a balanced and detailed discussion of exploratory versus manual scripted testing?
+Does it include explicit examples from lab work to support the analysis of benefits, drawbacks, trade-offs, effectiveness, and efficiency?
+Key Considerations: Lack of examples or shallow comparisons should impact the score.
+Peer Reviews and Teamwork (15%)
+
+Are peer reviews thorough and constructive?
+Does the section provide enough detail about teamwork, including challenges faced and how effort was divided?
+Key Considerations: Insufficient peer feedback or lack of detail in teamwork reflections should reduce the score.
+Overall Presentation (15%)
+
+Is the report well-structured, with a clear table of contents and cohesive sections?
+Is the formatting consistent, and does the writing meet quality standards?
+Key Considerations: Poor formatting, repetitive content, or unclear writing should reduce the score.
+Scoring Bands:
+Exceptional 1st (80%-100%): Exemplary work, innovative, exceeds expectations.
+1st (70%-79%): Outstanding, meets all requirements with originality and depth.
+2.1 (60%-69%): Very good, thorough with minor omissions.
+2.2 (50%-59%): Good, lacks depth or has inconsistencies.
+3rd (40%-49%): Adequate, meets basic requirements but has significant gaps.
+Marginal Fail (35%-39%): Minimal relevant content, poorly argued.
+Fail (0%-34%): Missing or irrelevant work.
+Provide detailed feedback using this structure for each section:
+
+Strengths: Highlight strong elements of the section.
+Weaknesses: Identify areas needing improvement.
+Suggestions: Provide specific recommendations to address weaknesses.
+Score: Assign a percentage and grade band."

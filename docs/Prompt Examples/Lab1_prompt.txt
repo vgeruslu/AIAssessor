@@ -1,0 +1,116 @@
+Overview:
+This prompt evaluates the Lab 1 report based on the detailed expectations outlined in the lab document. The evaluation follows the chronological structure of the "TODO" tasks, incorporating grading guidance for code, explanations, and critical thinking. It also includes the assessment of technical skills, teamwork, and overall report quality.
+-Provide actionable feedback for improvement, particularly on test cases, critical thinking, and report quality.
+-Make sure to include the overall score in feedback
+
+Grading and Evaluation Criteria:
+1. Introduction (5%)
+Expectations:
+Provide a structured overview of the lab, including objectives, the scope of work, and team experience with Java, OOP, and unit testing.
+Discuss baseline knowledge, prior experience, and how it informed the lab tasks.
+Highlight the use of Test-Driven Development (TDD) and the iterative coding-testing approach described in the lab document.
+Feedback Guidance:
+Identify unclear or missing details about the team’s preparation and the lab’s purpose.
+Suggest expanding on how their skills or challenges shaped their approach.
+2. TODO Tasks (60%)
+Evaluate each task for adherence to the lab document’s requirements and assess code correctness, completeness, and clarity. Incorporate these specific expectations for each task:
+
+TODO1: Development of three other if-code blocks to verify the other three fields in the UserTest class (5%)
+Lab Expectations:
+Verify each getter method with additional if-statements.
+Include clear output to confirm test case success or failure.
+Test outputs should be formatted and visually distinguishable (e.g., green/red text for success/failure as described in the lab).
+Evaluation Guidance:
+Are all getter methods verified, and does the test output show expected results?
+Highlight missing or incorrect verification logic.
+Comment on clarity and usefulness of the test output format.
+
+TODO2: Testing the User class—Refactor constructor test-code into a separate method (5%)
+Lab Expectations:
+Move constructor testing logic into a separate method (testUserConstructor) while maintaining functionality.
+Test results must remain consistent post-refactoring.
+Evaluation Guidance:
+Evaluate adherence to the refactoring instructions.
+Ensure the constructor’s behavior is fully tested after refactoring.
+Highlight missed steps, like failing to call the new method or missing checks.
+
+TODO3: Interpret and explain defects in SUT and test-code bases (10%)
+Lab Expectations:
+Discuss defects in both production (SUT) and test-code bases.
+Address consequences of defects, how to design effective test-suites, and methods to prevent defects in test-code.
+Incorporate examples (e.g., equivalence partitioning, boundary testing).
+Evaluation Guidance:
+Assess whether explanations align with the lab’s guidelines (specific, not abstract).
+Evaluate the depth and originality of examples (e.g., identifying gaps in edge-case testing).
+Highlight missing critical thinking or insufficient exploration of defect consequences.
+
+TODO4: Develop the other four assertions in the UserTest class (5%)
+Lab Expectations:
+Add assertions for the remaining fields in the User class.
+Ensure proper use of assert statements with boolean expressions.
+Evaluation Guidance:
+Confirm completeness and correctness of assertions.
+Highlight missed or misconfigured assertions (e.g., incorrect field tests).
+
+TODO5: Develop a test suite for the Account class (10%)
+Lab Expectations:
+Create an AccountTest class to test at least two methods from the Account class.
+Use TDD principles to ensure proper method functionality.
+Format outputs for readability.
+Evaluation Guidance:
+Assess whether test cases fully cover selected methods.
+Highlight missing assertions, edge cases, or formatting issues.
+
+TODO6: Develop the SimpleBankingApp.getBalance() method (10%)
+Lab Expectations:
+Implement the getBalance method according to the specification in the lab document.
+The method should handle invalid accounts gracefully and include tests to verify behavior.
+Evaluation Guidance:
+Check for adherence to the provided skeleton and functionality requirements.
+Comment on missing validations (e.g., invalid accounts returning zero balance).
+
+TODO7: Observations after running the main() method of SimpleBankingApp (10%)
+Lab Expectations:
+Discuss observations regarding code behavior, abnormal issues, and robustness.
+Provide recommendations for improving the software (e.g., input validation, error handling).
+Analyze shortcomings like handling of invalid usernames or duplicate accounts.
+Evaluation Guidance:
+Assess whether observations are comprehensive and insightful.
+Highlight missed opportunities to analyze robustness or suggest meaningful improvements.
+
+ODO8: Develop the testWithdrawals method in SimpleBankingAppTest (5%)
+Lab Expectations:
+Implement a test case for withdrawals, including setup, exercise, verify, and teardown phases.
+Ensure proper handling of test outcomes and maintain test code clarity.
+
+Evaluation Guidance:
+Confirm the correctness and completeness of the test method.
+Highlight issues like missing teardown logic or incomplete test cases.
+3. Technical Skills Learned (10%)
+Expectations:
+Describe individual skills gained (e.g., using assert statements, debugging with Eclipse).
+Reflect on how these skills contribute to software testing or future projects.
+Feedback Guidance:
+Evaluate depth and relevance of skill descriptions.
+Suggest areas for further improvement or exploration.
+4. Teamwork and Challenges (10%)
+Expectations:
+Describe how tasks were divided and challenges were overcome.
+Emphasize collaboration strategies (e.g., pair programming, regular meetings).
+Feedback Guidance:
+Highlight vague or insufficient explanations of teamwork or challenge resolutions.
+Suggest ways to improve collaboration or task management.
+5. Report Writing and Formatting (15%)
+Expectations:
+Adhere to the lab report template, ensuring logical structure, proper grammar, and formatting.
+Include all required sections with consistency.
+Feedback Guidance:
+Comment on inconsistencies or deviations from the template.
+Suggest improvements for professionalism or readability.
+
+Scoring Framework:
+Exceptional (80%-100%): Exceeds expectations in all areas with innovative insights and strong alignment to lab goals.
+Very Good (70%-79%): Thorough work with minor improvements needed.
+Good (60%-69%): Meets requirements but lacks depth or has notable gaps.
+Adequate (50%-59%): Sufficient but minimal effort or clarity.
+Fail (<50%): Significant shortcomings in understanding, execution, or presentation.

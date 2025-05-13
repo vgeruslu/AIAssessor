@@ -1,0 +1,95 @@
+General Instructions:
+-Evaluate the attached Lab 2 report and JUnit test code files using the rubrics provided below. Grade each section independently, assign a percentage score, and provide specific, detailed feedback for each, ensuring alignment with the expectations outlined in the teacher's comments and grading standards. Pay particular attention to methodological rigor, edge-case coverage, and precision in writing.
+-Ensure to Give a Final Mark at the end
+
+Important Note:
+the following methods were explicitly covered in the lectures/lab document as examples and should not be used as part of the five methods tested in this lab work:
+Range.contains(value)
+Range.getCentralValue()
+Range.getLength()
+If these methods are included in the report or test cases, this will result in a deduction, as they do not represent original contributions or new insights into the testing process.
+
+For the test code evaluation, reference specific lines, statements, or methods when discussing issues or areas for improvement. Provide actionable feedback, linking it to missed equivalence classes, boundary values, or test coverage gaps where applicable.
+
+Grading Rubric & Questions
+1. Test Plan for Black-box Testing (10%)
+Does the test plan clearly list the methods or functions to be tested?
+Are black-box techniques (e.g., equivalence partitioning, boundary value analysis) applied appropriately and visually represented (e.g., strong equivalence-class testing diagrams)?
+Are edge cases, such as empty arrays or null data, explicitly addressed?
+Feedback Structure:
+
+Strengths: Highlight clarity, coverage, and alignment with black-box testing principles, especially visual representation of equivalence classes.
+Weaknesses: Identify missing test cases, incomplete equivalence classing, or omitted edge-case scenarios. Deduct marks if excluded methods (contains, getCentralValue, getLength) are used.
+Suggestions: Recommend adding edge-case test cases (e.g., empty arrays, invalid data) and visually structured equivalence class diagrams.
+2. Black-box Test Design of Test Cases (45%)
+Are the test cases comprehensive, covering all equivalence classes and boundary conditions?
+Are test cases for edge scenarios (e.g., empty arrays, negative ranges) included and clearly documented?
+Are there any redundancies, vague descriptions, or invalid test cases?
+Feedback Structure:
+
+Strengths: Note thorough and innovative use of black-box test design techniques, appropriate use of equivalence partitioning and boundary value analysis.
+Weaknesses: Highlight any missing or poorly documented equivalence classes, boundary conditions, or edge cases. Deduct marks if excluded methods (contains, getCentralValue, getLength) are used in test design.
+Suggestions: Suggest additional edge-case coverage, improvement in redundancy reduction, or clearer mapping of techniques to test cases.
+3. Output of Test-Suite Execution (5%)
+Are test execution outputs (e.g., screenshots or logs) included in the report?
+Are all test results documented, including passes, failures, and errors?
+Feedback Structure:
+
+Strengths: Highlight clear documentation of results with evidence.
+Weaknesses: Identify missing or incomplete execution outputs (e.g., lack of screenshots/logs).
+Suggestions: Recommend adding detailed execution evidence for transparency and clarity.
+4. Analysis of Test Failures (6%)
+Are failures categorized and analyzed effectively, linking root causes to errors, faults, and failures (e.g., chain of software dependability threats)?
+Are specific implementation flaws or missed requirements identified?
+Feedback Structure:
+
+Strengths: Highlight depth and clarity in failure categorization and root cause analysis.
+Weaknesses: Note any vague or superficial failure analysis or unlinked root causes.
+Suggestions: Recommend linking failures directly to specific code snippets or logical flaws.
+5. Teamwork and Challenges (6%)
+Does the report detail how tasks were divided and managed?
+Are challenges (e.g., skill gaps, time constraints) and solutions (e.g., team strategies, communication) documented effectively?
+Feedback Structure:
+
+Strengths: Commend clear descriptions of teamwork, challenge management, and lessons learned.
+Weaknesses: Identify vague or missing details about teamwork or specific contributions.
+Suggestions: Recommend elaborating on individual contributions and technical solutions.
+6. Writing and Formatting (3%)
+Is the report structured and formatted per the template?
+Is the writing concise, professional, and free of grammatical errors?
+Feedback Structure:
+
+Strengths: Highlight adherence to formatting and writing quality.
+Weaknesses: Point out verbosity, unclear phrasing, or deviations from the template.
+Suggestions: Recommend specific improvements for clarity and conciseness.
+JUnit Test Suite Code Evaluation
+1. Using GitHub Properly (5%)
+Is the repository structured correctly (e.g., includes only required Java files)?
+Are both students contributing meaningfully with identifiable and regular commits?
+Has "collaborator" access been set up for graders?
+2. Completeness of Test Code (10%)
+Does the test code fully align with the test-case design documented in the Lab 2 report?
+Are edge cases (e.g., empty arrays, null data) and invalid inputs tested adequately?
+Is there evidence of new contributions to test methods (excluding contains, getCentralValue, and getLength)?
+Feedback Structure:
+
+Strengths: Note areas with strong test coverage and alignment with the report.
+Weaknesses: Highlight missed edge cases, untested requirements, or use of excluded methods.
+Suggestions: Recommend additional test cases to address gaps in coverage.
+3. Quality of Test Code (10%)
+Are test methods well-structured, readable, and easy to follow?
+Are comments, naming conventions, and exception handling consistent and professional?
+Feedback Structure:
+
+Strengths: Highlight clean, readable code and adherence to conventions.
+Weaknesses: Point out unclear naming, missing comments, poor structure, or use of excluded methods.
+Suggestions: Recommend specific improvements in readability, structure, and Java conventions.
+Scoring Guidelines for JUnit Test Code
+
+Exceptional 1st (80%-100%): Exemplary, innovative work exceeding expectations.
+1st (70%-79%): Outstanding, meets all requirements with originality and depth.
+2.1 (60%-69%): Very good, thorough but with minor omissions.
+2.2 (50%-59%): Good, lacks depth or consistency.
+3rd (40%-49%): Adequate, meets basic requirements but has significant gaps.
+Marginal Fail (35%-39%): Minimal relevant content, poorly argued.
+Fail (0%-34%): Missing or irrelevant work.

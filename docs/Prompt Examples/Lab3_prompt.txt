@@ -1,0 +1,88 @@
+Instructions:
+-Evaluate the attached Lab 3 report and JUnit test code files using the refined grading rubric below. Assign percentage scores to each section based on the following principles:
+-This is generally a lower scoring lab, ranging between 50-75 for most grades
+-Grade each section independently, then provide an overall score as a percentage. 
+-Additionally, give detailed feedback for each section, highlighting strengths, weaknesses, and specific suggestions 
+for improvement.
+-Ensure to Give a Final Mark at the end
+
+Rigor and Depth:
+
+Penalize redundancy in test cases or explanations. Each test case or report section should add value.
+Reward detailed, precise reasoning, and thoughtful design in both test cases and report analysis.
+Require clear explanations for achieving coverage thresholds, killing mutants, and identifying challenges.
+Coverage and Alignment:
+
+Ensure coverage thresholds for the Range and DataUtilities classes meet the requirements (90% line/70% branch for Range; 100% line/branch for DataUtilities). Deduct heavily for missing coverage without valid justification.
+Reward compliance with the lab document, provided Word template, and GitHub usage instructions.
+Teacher Alignment:
+
+Align with the teacher’s emphasis on depth, clarity, and adherence to methodology.
+Deduct more conservatively for minor issues like grammar but penalize heavily for vague or superficial work (e.g., in challenges or teamwork discussions).
+Grading Rubric & Questions
+Lab Report (80%)
+Introduction (2%)
+
+Is the introduction clear, concise, and aligned with the lab objectives?
+Does it provide a strong context for white-box testing and its relevance?
+Score Weight: Deduct heavily for misalignment or unclear purpose. Reward insightful setups.
+Test Plan for White-box Testing (7%)
+
+Does the test plan clearly describe an approach to achieve required coverage thresholds?
+Are workload division and iterative feedback well-documented?
+Score Weight: Deduct for vagueness, redundancy, or lack of clear methodologies.
+Design of White-box Test Cases (30%)
+
+Are test cases designed to improve coverage and avoid redundancy?
+Do they address edge cases, challenging branches, or missed conditions?
+Are they well-documented and rigorously explained?
+Score Weight: Penalize heavily for redundancy or failure to meet coverage goals.
+Showing Coverage Thresholds Are Achieved (3%)
+
+Is there clear evidence (e.g., screenshots) of coverage thresholds being met?
+Are untestable lines clearly explained?
+Score Weight: Deduct for missing data or weak justification for coverage gaps.
+Output of Test-Suite Execution (3%)
+
+Are test results presented clearly, with no errors?
+Score Weight: Reward clean and transparent documentation.
+Comparison of Black-box and White-box Testing (9%)
+
+Are comparisons well-supported with examples from Labs 2 and 3?
+Is the discussion insightful and reflective?
+Score Weight: Penalize for verbosity or lack of specific examples.
+Manual Data-flow Coverage Analysis (10%)
+
+Are CFGs, path analysis, and coverage metrics accurate and detailed?
+Are all definition-clear paths and def-clear p-use paths addressed?
+Score Weight: Deduct heavily for incomplete paths or weak explanations.
+Manual Mutation Testing (10%)
+
+Are mutations clearly defined, analyzed, and documented with results?
+Are missed mutants properly explained, and new tests added where necessary?
+Score Weight: Penalize for inadequate test explanations or unjustified passing mutants.
+Teamwork (2%)
+
+Is workload division clearly described?
+Does the report demonstrate collaborative efforts?
+Score Weight: Deduct for generic or vague teamwork descriptions.
+Challenges and Lessons Learned (2%)
+
+Are challenges and technical lessons detailed and reflective?
+Score Weight: Penalize for shallow or generic discussions.
+Writing Quality and Formatting (2%)
+
+Does the report adhere to the provided Word template and use professional formatting?
+Is the writing clear and free of significant grammar errors?
+Score Weight: Deduct for poor adherence to formatting or unclear writing.
+JUnit Test Suite Code (20%)
+Using GitHub Properly (5%)
+
+Does the repository include only required Java files?
+Are both students contributing regularly with identifiable commits?
+Score Weight: Penalize for poor commit structure or lack of collaboration evidence.
+Quality of Test Code (15%)
+
+Are test cases readable, well-structured, and appropriately commented?
+Do they use meaningful naming conventions and proper exception handling?
+Score Weight: Deduct heavily for redundant or poorly documented tests.
