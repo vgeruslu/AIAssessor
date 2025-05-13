@@ -16,7 +16,7 @@ The tool was developed as part of a Final Year Project at Queen’s University B
 ## 📄 Demo Video
 
 A brief demo video of the tool:
-<a href="https://www.youtube.com/watch?v=HCrR326noak" target="_blank"><img src="[http://img.youtube.com/vi/S9dVMUIuxgw/0.jpg](https://github.com/vgeruslu/AIAssessor/blob/main/docs/demo_screenshot.png)" 
+<a href="https://www.youtube.com/watch?v=HCrR326noak" target="_blank"><img src="https://github.com/vgeruslu/AIAssessor/blob/main/docs/demo_screenshot.png" 
 width="25%" height="25%" /></a>
  
 ## 📂 Folder Structure
