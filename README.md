@@ -15,7 +15,8 @@ The tool was developed as part of a Final Year Project at Queen’s University B
 
 ## 📄 Demo Video
 
-A brief demo video of the tool:
+A brief demo video of the tool, in action:
+
 <a href="https://www.youtube.com/watch?v=HCrR326noak" target="_blank"><img src="https://github.com/vgeruslu/AIAssessor/blob/main/docs/demo_screenshot.png" 
 width="25%" height="25%" /></a>
  
