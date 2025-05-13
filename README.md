@@ -13,6 +13,11 @@ The tool was developed as part of a Final Year Project at Queen’s University B
 - Real-time logging of each grading step
 - Unit-tested utility logic
 
+## 📄 Demo Video
+
+A brief demo video of the tool:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HCrR326noak?si=3uOBSNRl-j1cJoD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
 ## 📂 Folder Structure
 
     AIGradingTool/
@@ -89,6 +94,8 @@ Should contain format of:
 - GX_DataUtilitiesTest.java
 - LabX_prompt.txt
 
+(Please Note Github does not contain the students submitted reports/ code files as these are confidential)
+
 3. Select the Output Folder
 
 4. Click "Process" to begin grading
@@ -100,8 +107,7 @@ This project is for academic research and educational use only.
 
 ## 👨‍💻 Development Team
 
-Name: [Niall Hurson](https://www.linkedin.com/in/niall-hurson-9b4796333/)
-Course: MEng Computer Science, Queen’s University Belfast
-Supervisor: [Dr. Vahid Garousi](https://www.vgarousi.com/)
+- Developer: [Niall Hurson](https://www.linkedin.com/in/niall-hurson-9b4796333/), as part of the Final-year Project of the MEng degree if Computer Science, at Queen’s University Belfast
+- Project Supervisor: [Dr. Vahid Garousi](https://www.vgarousi.com/)
 
-(Please Note Github does not contain reports/ code files as these are confidential - access must be requested from supervisor)
+
